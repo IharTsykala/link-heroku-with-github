@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 80
 app.get('/', (req,res)=> {
     res.end(`<div>
                 <h1>Home page</h1>
-                <a href="/about">About2</a>
+                <a href="/about">About</a>
             </div>`)
 })
 
